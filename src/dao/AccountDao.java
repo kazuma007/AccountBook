@@ -13,9 +13,9 @@ public class AccountDao {
 	Connection con = null;
 	PreparedStatement ps = null;
 	ResultSet rs = null;
-	final String URL = "jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/heroku_8809a444f8ab16b?reconnect=true&characterEncoding=UTF-8&characterSetResults=UTF-8";
-	final String USER = "b864de264aae32";
-	final String PASS = "96560f71";
+	final String URL = "";
+	final String USER = "";
+	final String PASS = "";
     public void insertAccount(Account account){
     	try {
 	    // mySQLの接続
